@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">MadokaAlarm</string>
+    
+    
+    <string name="never">Never</string>
+    <string name="every_day">every day</string>
+    <string name="day_concat">", "</string>
+</resources>
