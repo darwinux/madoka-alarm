@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MadokaAlarm>
+	<AlarmTime id = "0" enable="true" type="week" theme="/sdcard/modakaalarm/modaka/theme/default">
+		<week>2,3,4,5,6,7</week>
+		<hour>13</hour>
+		<minute>48</minute>	
+	</AlarmTime>
+	<AlarmTime id = "1" enable="false" type="day" theme="/sdcard/modakaalarm/modaka/theme/default">
+		<week>00</week>
+		<hour>23</hour>
+		<minute>18</minute>	
+	</AlarmTime>
+</MadokaAlarm>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference 
+    	android:key="time"
+    	android:persistent="false"
+    	android:title="时间"/>
+    <EditTextPreference android:key="times"
+        android:persistent="false"
+        android:title="时间"
+        android:dialogTitle="时间" 
+        android:maxLength="2" android:numeric="integer"/>
+    <RingtonePreference android:title="铃声" android:key="alarm"></RingtonePreference>
+    <CheckBoxPreference android:title="震动" android:key="vibrate" android:persistent="false"/>
+    <com.overflow.madokaalarm.RepeatPreference
+    	android:title="重复" android:persistent="false" android:key="setRepeat"/>
+    <CheckBoxPreference android:title="1" android:summary="1"></CheckBoxPreference>
+    
+</PreferenceScreen>
